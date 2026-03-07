@@ -1,6 +1,6 @@
 #!/bin/bash
- ARCH=amd64
- PLATFORM=$(uname -s)_$ARCH 
+ARCH=amd64
+PLATFORM=$(uname -s)_$ARCH 
 #resize-dis
 
 growpart /dev/nvme0n1 4
